@@ -1,0 +1,465 @@
+*{
+
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding:0;
+}
+.navbar{
+  background: url('img/code2.jpg');
+  text-align: center;
+  background-size: cover;
+  padding: 10px 10%;
+  position: sticky;
+}
+.navbar > ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.navbartxt{
+  margin: 10px;
+}
+
+
+.href1{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 21px;
+    text-decoration: none;
+    padding: 12px 14px;
+    border: 1px solid transparent;
+    transition: ease-in-out .4s;
+    
+}
+.href1:hover{
+  color: rgba(0, 0, 0, 0.712);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid white;
+  transition: ease-in-out .4s;
+}
+.name{
+font-size: 40px;
+}
+.socialmedia{
+  font-size: 35px;
+  color: rgb(250, 250, 250);
+  margin: 10px;
+  padding: 8px;
+  transition: ease-in-out .4s;
+  }
+.socialmedia:hover{
+  font-size: 35px;
+  color: black;
+  background-color:white;
+  border-radius: 10px;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid white;
+  transition: ease-in-out .4s;
+}
+.socialmedia1{
+  font-size: 35px;
+  color: rgb(250, 250, 250);
+  margin: 10px;
+  padding: 8px;
+  transition: ease-in-out .4s;
+  }
+.socialmedia1:hover{
+  font-size: 35px;
+  color: black;
+  background-color:white;
+  border-radius: 10px;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid white;
+  transition: ease-in-out .4s;
+}
+.MyWork{
+  color:lightsalmon;
+  font-size: 30px;
+}
+
+
+.nameo{
+  font-size: 40px;   
+}
+.h4{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  width: 415px;
+  height: 145px;
+  border-radius: 20px;
+}
+.h44{
+  text-align:center ;
+}
+.h444{
+ background-color: gray;
+ border-radius: 20px;
+ 
+}
+.tag{
+text-decoration: none;
+}
+
+
+
+.Contact{
+  font-size: 25px;
+  color: lightgreen;
+}
+
+.form{
+  position: relative;
+  bottom: 100px;
+}
+.h1{
+position: relative;
+bottom:100px ;
+}
+.inputs{
+font-size: 20px;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 4px;
+width: 30%;
+padding: 12px;
+}
+input[type=submit] {
+  font-size: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid lightgreen;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 200px ;
+}
+input[type=text], select, textarea {
+font-family: sans-serif;
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  
+}
+.btn{
+  font-family: 'Open Sans', sans-serif;
+  background-color: green;
+  color: white;
+  font-size: 21px;
+  text-decoration: none;
+  padding: 12px 14px;
+  border: 1px solid black;
+  transition: ease-in-out .4s;
+  border-radius: 10px;
+}
+.btn:hover{
+color: white;
+background-color:black;
+transition: ease-in-out .4s;
+border: 1px solid white;
+}
+.gridcontainer{
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  grid-gap: 10px;
+}
+.btnContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.btn1{
+  font-family: 'Open Sans', sans-serif;
+  background-color: green;
+  color: white;
+  font-size: 21px;
+  text-decoration: none;
+  padding: 12px 14px;
+  border: 1px solid black;
+  transition: ease-in-out .4s;
+  border-radius: 10px;
+}
+.btn1:hover{
+color: white;
+background-color:black;
+transition: ease-in-out .4s;
+border: 1px solid white;
+}
+
+
+.igm{
+width: 350px;
+padding-left: 20px;
+
+}
+
+
+
+.nameo{
+  font-size: 40px;   
+}
+.h4{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  width: 415px;
+  height: 145px;
+  border-radius: 20px;
+}
+
+.tag{
+text-decoration: none;
+}
+.grid-container2 {
+  display:grid;
+  grid-auto-columns: 1fr;
+  grid-gap: 10px;
+  padding: 0 20vw;
+}
+
+.grid-container2  > div {
+
+  border: 6px solid black;
+  background-color:grey;
+  text-align: center;
+  padding: 20px 20% !important;
+  font-size: 30px;
+  border-radius:10px; 
+
+}
+/*crap
+  /* Typography imported from Google Fonts */
+  @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400');
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  p, a {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  /* Generic styles */
+  html {
+    scroll-behavior: smooth;
+  }
+  .hrefg{
+    background-color: goldenrod;
+    text-decoration: none;
+    color: white;
+    border-radius: .25rem;
+    text-align: center;
+    display: inline-block;
+    transition: all .3s;
+  }
+  
+  .hrefg:hover {
+    opacity: .6;
+  }
+  
+  /* Styles for the hero image */
+  .hero {
+    /* Photo by mnm.all on Unsplash */
+    background: url(img/colorful-codes-hd-wallpaper-1080x608.jpg) center;
+    background-size: cover;
+    padding: 4rem 2rem;
+    /* grid styles */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    align-items: center;
+  }
+  
+  .hero > * {
+    color: white;
+  }
+  
+  .hero > h1 {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+  }
+  
+  .hero > article > p {
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+  
+  .hero > article > a {
+    padding: 1rem;
+    margin-top: .75rem;
+  }
+  
+  /* breweries styles */
+  .breweries {
+    padding: 2rem;
+  }
+  
+  .breweries > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+  }
+  
+  .breweries > ul > li {
+    list-style: none;
+    border: 1px solid #E2E2E2;
+    border-radius: .5rem;
+  }
+  
+  .breweries > ul > li > figure {
+    max-height: 220px;
+    overflow: hidden;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    position: relative;
+  }
+  
+  .breweries > ul > li > figure > img {
+    width: 100%;
+  }
+  
+  .breweries > ul > li > figure > figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+  }
+  
+  .breweries > ul > li > figure > figcaption > h3 {
+    color: white;
+    padding: .75rem;
+    font-size: 1.25rem;
+  }
+  
+  .breweries > ul > li > p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem .75rem;
+    color: #666666;
+  }
+  
+  .breweries > ul > li > a {
+    padding: .5rem 1rem;
+    margin: .5rem;
+  }
+  
+  /* footer */
+  footer {
+    background-color: #333;
+    padding: .75rem;
+    color: white;
+    text-align: center;
+    font-size: .75rem;
+  }
+
+.h11tag{
+  font-family: 'Raleway', sans-serif
+}
+.span1{
+  color: darkred;
+}
+.span2{
+  color: darkred;
+}
+.h13{
+  font-size: 24px;
+  text-align: center;
+}
+
+
+/* Section 1 container code */
+#section1{
+  background: url("img/code4.jpg") center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+}
+
+
+/* Section 2 container code */
+
+#section2{
+  padding: 0px 0;
+  background: linear-gradient(#fff, #e4e4e4);
+}
+/* Section 2 container code */
+#sections2{
+  background: url("img/photo.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+}
+  /* Section 5 container code */
+  #section5{
+  background: url("img/green.jpg") center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+}
+/*section4 container code*/
+#section4{
+background: url(img/code11.jpg) center center no-repeat;
+background-size: cover;
+text-align: center;
+padding: 30px 0;
+}
+
+/* Mobile navbar css */
+
+.topnav {
+  display: none;
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: GREY;
+  color: white;
+}
+
+/* media queries */
+
+@media screen and (max-width: 954px){
+  .navbar{
+    display: none;
+  }
+  .topnav{
+    display: block;
+  }
+}
+
+
