@@ -304,6 +304,9 @@ text-decoration: none;
   }
   
   .breweries > ul {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 1rem;
@@ -461,6 +464,9 @@ padding: 100px 0;
   }
   .topnav{
     display: block;
+  }
+  .breweries{
+    padding: 2rem 0;
   }
 }
 
