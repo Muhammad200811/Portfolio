@@ -325,6 +325,7 @@ text-decoration: none;
   
   .breweries > ul > li > figure > img {
     width: 100%;
+   
   }
   
   .breweries > ul > li > figure > figcaption {
@@ -349,6 +350,8 @@ text-decoration: none;
   
   .breweries > ul > li > a {
     padding: .5rem 1rem;
+    margin: .5rem;
+    
   }
   
   /* footer */
